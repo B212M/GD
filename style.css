@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+}
+
+.menu-area{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(224, 228, 231, 0.2);
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.logo{
+    flex: 1 1 auto;
+    margin-left: 7%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a{
+    margin: 20px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#Home{
+    position: relative;
+    background-image: url(1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+
+#Home .content{
+    width: 100%;
+}
+#Home .content h1{
+    font-size: 60px;
+    margin: 15px 0;
+    color: rgb(200, 0, 0);
+}
+#Home .content p{
+    width: 50%;
+    margin: auto;
+    line-height: 1.6;
+    color: #fff;
+}
+
+#Manual_En, #Manual_Fr, #Team_Infos, #Designer_Infos{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(122, 156, 144);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.content{
+    width: 80%;
+    height: 100%;
+    padding: 15% 0;
+}
+
+.content h1 {
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.content p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#Manual_Ar{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(122, 156, 144);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.content{
+    width: 80%;
+    height: 100%;
+    padding: 15% 0;
+}
+
+.content h1 {
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+.content p{
+    font-size: 20px;
+    line-height: 40px;
+}
